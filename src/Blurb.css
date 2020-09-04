@@ -1,6 +1,7 @@
 .info {
   text-align: center;
   border: 2px solid #a8e5b0;
+  padding: 10px;
 }
 ul {
   list-style-type: none;
