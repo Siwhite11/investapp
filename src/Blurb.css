@@ -1,0 +1,11 @@
+.info {
+  text-align: center;
+  border: 2px solid #a8e5b0;
+}
+ul {
+  list-style-type: none;
+}
+li span {
+  position: relative;
+  left: -15px;
+}
