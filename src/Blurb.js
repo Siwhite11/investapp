@@ -9,7 +9,10 @@ export default function () {
         What is Investing? Investing involves committing money in order to earn
         a financial return. This essentially means that you invest money to make
         money and achieve your financial goals. by {""}
-        <a href="https://www.wealthsimple.com/en-us/learn/investing-basics">
+        <a
+          href="https://www.wealthsimple.com/en-us/learn/investing-basics"
+          target="_blank"
+        >
           Weathsimple
         </a>
       </p>
@@ -23,24 +26,34 @@ export default function () {
           <span>Bonds</span>
         </li>
         <li>
-          <span>ETFs</span>
-        </li>
-        <li>
           <span>Mutual funds</span>
         </li>
         <li>
-          <span>Cash equivalents</span>
+          <span>Exchange-traded funds (ETF)</span>
+        </li>
+        <li>
+          <span>Certificates of Deposit</span>
+        </li>
+        <li>
+          <span>Retirement Plans</span>
+        </li>
+        <li>
+          <span>Options</span>
+        </li>
+        <li>
+          <span>Cryptocurrencies</span>
         </li>
         <li>
           <span>Real estate</span>
         </li>
-        <li>
-          <span>REITs</span>
-        </li>
-        <li>
-          <span>Commodities</span>
-        </li>
       </ul>
+      by{" "}
+      <a
+        href="https://smartasset.com/investing/types-of-investment"
+        target="_blank"
+      >
+        smartasset
+      </a>
     </div>
   );
 }
