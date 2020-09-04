@@ -21,7 +21,13 @@ function App() {
 
         <br />
         <div>
-          <footer className="me"> Open Source code by Stephanie White </footer>
+          <footer className="me">
+            {" "}
+            Open Source code by{" "}
+            <a href="https://github.com/Siwhite11/investapp">
+              Stephanie White{" "}
+            </a>
+          </footer>
           <br />
         </div>
       </div>
