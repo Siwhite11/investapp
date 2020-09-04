@@ -24,7 +24,7 @@ function App() {
           <footer className="me">
             {" "}
             Open Source code by{" "}
-            <a href="https://github.com/Siwhite11/investapp">
+            <a href="https://github.com/Siwhite11/investapp" target="_blank">
               Stephanie White{" "}
             </a>
           </footer>
