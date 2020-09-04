@@ -12,6 +12,7 @@ export default function () {
         <a
           href="https://www.wealthsimple.com/en-us/learn/investing-basics"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Weathsimple
         </a>
@@ -51,6 +52,7 @@ export default function () {
       <a
         href="https://smartasset.com/investing/types-of-investment"
         target="_blank"
+        rel="noopener noreferrer"
       >
         smartasset
       </a>
