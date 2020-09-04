@@ -14,7 +14,7 @@ export default function () {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Weathsimple
+          Wealthsimple
         </a>
       </p>
       <br />
