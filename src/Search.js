@@ -20,19 +20,17 @@ export default function (response) {
   function showInput() {
     setMessage(
       <ul>
-        <li>Symbol:{iex.symbol} </li>
-        <li>Name: {}</li>
+        <li>Name: {iex.companyName}</li>
         <li>Day: {}</li>
-        <li>Open: {Math.round()} </li>
-        <li>Close: {Math.round()} </li>
+        <li>High Source: {}</li>
+        <li>Open: {iex.open} </li>
+        <li>Close: {} </li>
       </ul>
     );
   }
 
   function handleSubmit(event) {
     event.preventDefault();
-    //let apiKey = "pk_f4fdcc0bcbab48c8af840ac95f2beedd";
-
     let apiUrl = `https://cloud.iexapis.com/stable/stock/${symbol}/book/2?token=pk_f4fdcc0bcbab48c8af840ac95f2beedd&period=annual`;
     axios.get(apiUrl).then(showInput);
   }
