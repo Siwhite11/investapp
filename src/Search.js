@@ -7,7 +7,7 @@ export default function (response) {
   function showInput() {
     setMessage(
       <ul>
-        <li>Symbol:{} </li>
+        <li>Symbol:{quote.symbol} </li>
         <li>Name: {}</li>
         <li>Day: {}</li>
         <li>Open: {Math.round()} </li>
@@ -18,9 +18,9 @@ export default function (response) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    //let textInput = event.target.value;
-    //let apiKey = "6b3300e0c60884c4b50763fcabdac835";
-    //let apiUrl = ``;
+    let apiKey = "pk_f4fdcc0bcbab48c8af840ac95f2beedd";
+    let textInput = event.target.value;
+    let apiUrl = `https://cloud.iexapis.com/stable/stock/${textInput}/book/2?${apiKey}&period=annual`;
     axios.get(apiUrl).then(showInput);
   }
   return (
